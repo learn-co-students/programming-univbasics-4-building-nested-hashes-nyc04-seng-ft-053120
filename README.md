@@ -83,12 +83,12 @@ This method builds on the hash returned by `base_hash`, updating the nested
 - a key called `:pieces` set to `4`
 - a key called `:rent_in_dollars` set to an empty hash
 - a key called `:names` set to an empty hash
-  
+
 ### `monopoly_with_third_tier`
 
 This method builds on the hash returned by monopoly_with_second_tier updating
 the nested `:rent_in_dollars` hash so that it includes:
-  
+
 - a `:one_piece_owned` key set to `25`
 - a `:two_pieces_owned` key set to `50`
 - a `:three_pieces_owned` key set to `100`
